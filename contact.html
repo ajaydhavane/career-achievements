@@ -20,7 +20,7 @@
     <main>
         <section class="contact">
             <h1>Contact</h1>
-            <form action="https://formspree.io/f/mbjnezrw" method="post">
+            <form action="https://formspree.io/f/mbjnezrw" method="post" enctype="multipart/form-data">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -28,7 +28,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 <label for="attachment">Attachment:</label>
-                <input type="file" id="attachment" name="attachment" required>
+                <input type="file" id="attachment" name="attachment">
                 <button type="submit">Send</button>
             </form>
         </section>
